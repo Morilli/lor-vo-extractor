@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoRAudioExtractor", "LoRAudioExtractor.csproj", "{664476B5-CF6E-4E70-BDF2-7D254B1B3E67}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetStudio", "..\AssetStudio\AssetStudio\AssetStudio.csproj", "{7662F8C2-7BFD-442E-A948-A43B4F7EB06E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{664476B5-CF6E-4E70-BDF2-7D254B1B3E67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{664476B5-CF6E-4E70-BDF2-7D254B1B3E67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{664476B5-CF6E-4E70-BDF2-7D254B1B3E67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7662F8C2-7BFD-442E-A948-A43B4F7EB06E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7662F8C2-7BFD-442E-A948-A43B4F7EB06E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7662F8C2-7BFD-442E-A948-A43B4F7EB06E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7662F8C2-7BFD-442E-A948-A43B4F7EB06E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

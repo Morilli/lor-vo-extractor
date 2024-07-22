@@ -4,7 +4,7 @@
         <OutputType>WinExe</OutputType>
         <UseWPF>true</UseWPF>
         <Nullable>enable</Nullable>
-        <TargetFramework>net5.0-windows</TargetFramework>
+        <TargetFramework>net8.0-windows</TargetFramework>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
         <Authors>Tefek</Authors>
         <ApplicationIcon>assets\icon.ico</ApplicationIcon>
@@ -16,6 +16,7 @@
         <FileVersion>0.4</FileVersion>
         <NeutralLanguage>en-US</NeutralLanguage>
         <PackageVersion>0.4</PackageVersion>
+        <LangVersion>latest</LangVersion>
     </PropertyGroup>
 
     <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
@@ -73,9 +74,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Reference Include="AssetStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-        <HintPath>..\AssetStudio\AssetStudioUtility\bin\Release\AssetStudio.dll</HintPath>
-      </Reference>
+      <ProjectReference Include="..\AssetStudio\AssetStudio\AssetStudio.csproj" />
     </ItemGroup>
 
 </Project>
